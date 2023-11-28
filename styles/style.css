@@ -1,0 +1,159 @@
+body {
+  font-family: 'Rubik', sans-serif;
+  background-color: ivory;
+}
+
+.navbar-custom{
+  background-color: olive;
+}
+
+header{
+  padding:10px 0px 20px 0px;
+}
+
+  
+#allContent {
+  margin: auto;
+  font-size: 20px;
+  text-align: center;
+}
+  
+  
+.info {
+  margin-top: 10px;
+  font-size: 20px;
+  display: inline-block;
+}
+  
+.nav-link {
+  color: black;
+}
+
+.nav-item, .nav-link {
+  margin-left: 40px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+footer{
+  margin-top: 50px;
+  width: 80%;
+  margin: auto;
+}
+
+#footer-block {
+  margin: 0px auto;
+  border-top: 1px grey solid;
+  text-align: center;
+  color: black;
+  font-size: 15px;
+}
+
+#canvasHead {
+  margin-top: 10px;
+  width: 60%;
+  border: 2px solid #dbdbdb;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#dashboard{
+  text-align: center;
+}
+
+#current-img {
+  display: block;
+  height: 595px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #dbdbdb;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+}
+
+body {
+  font-family: sans-serif;
+  display: grid;
+  height: 100vh;
+  place-items: center;
+}
+
+.base-timer {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.base-timer__svg {
+  transform: scaleX(-1);
+}
+
+.base-timer__circle {
+  fill: none;
+  stroke: none;
+}
+
+.base-timer__path-elapsed {
+  stroke-width: 7px;
+  stroke: grey;
+}
+
+.base-timer__path-remaining {
+  stroke-width: 7px;
+  stroke-linecap: round;
+  transform: rotate(90deg);
+  transform-origin: center;
+  transition: 1s linear all;
+  fill-rule: nonzero;
+  stroke: currentColor;
+}
+
+.base-timer__path-remaining.green {
+  color: rgb(65, 184, 131);
+}
+
+.base-timer__path-remaining.orange {
+  color: orange;
+}
+
+.base-timer__path-remaining.red {
+  color: red;
+}
+
+.base-timer__label {
+position: absolute;
+width: 300px;
+height: 300px;
+top: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 48px;
+}
+
+.centered-row{
+  max-width: 500px
+}
+
+body {
+  background-color: rgba(209, 205, 205, 0.658);
+}
+
+h3 {
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.btn{
+  place-items: center;
+}
